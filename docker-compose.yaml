@@ -1,1 +1,5 @@
-
+services:
+  luoshu:
+    build: .
+    ports:
+      - 80:80
