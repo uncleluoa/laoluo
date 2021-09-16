@@ -3,4 +3,5 @@ services:
     build: .
     ports:
       - 80:80
-shm_size: '2gb'
+      context: .
+  shm_size: '2gb'
