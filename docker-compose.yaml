@@ -1,6 +1,6 @@
 services:
   luoshu:
+  build: .
   shm_size: 2gb
-    build: .
     ports:
       - 80:80
