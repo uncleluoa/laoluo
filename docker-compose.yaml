@@ -4,4 +4,4 @@ services:
     ports:
       - "80:80"
       context: .
-  shm_size: '2gb'
+  shm_size: 2gb
