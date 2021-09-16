@@ -2,6 +2,6 @@ version: "3.5"
 services:
   luoshu:
     build: .
-      shm_size: '2048m'
+      shm_size: 2gb
     ports:
       - 80:80
