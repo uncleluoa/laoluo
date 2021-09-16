@@ -3,7 +3,7 @@ services:
   luoshu:
     build:
       context: .
-      shm_size: 2.5gb
-    shm_size: 2.5gb
+      shm_size: ‘2.5gb’
+    shm_size: ‘2.5gb’
     ports:
       - "80:80"
