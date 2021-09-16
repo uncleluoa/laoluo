@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   luoshu:
-    build: .
+    build:
       context: .
       shm_size: 2.5gb
     shm_size: 2.5gb
