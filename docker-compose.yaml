@@ -1,7 +1,9 @@
+version: '3.5'
 services:
   luoshu:
   build: 
    context: .
   shm_size: '2gb'
+  command: 'df -k /dev/shm'
    ports:
       - 80:80
